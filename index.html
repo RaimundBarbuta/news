@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Aggro' the News Aggregator</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Bungee|Hanalei+Fill|Montserrat:700,800i');
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel='stylesheet' href='main.css' />
+    <link rel="stylesheet" href="animate.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/a33d9f9d5e.js"></script>
+  </head>
+
+  <body>
+
+    <div class = 'animated pulse' id='content'>
+      <div><span class="close_popup"><a id="close"><i class="fa fa-times fa-4x" aria-hidden="true"></i></a></span></div>
+      <h4 id='title'></h4>
+      <h3 id='descript'></h3>
+      <h3 id='more'></h3>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1 id='top' class = 'dynpost'>AGGRO</h1>
+        <h3>ARGH! Your favourite news aggregator</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-2 text-center">
+    <button id='assholeBtn' class= 'animated pulse' onclick="selectNews(event)">  <h3>Click here asshole!</h3> </button>
+      <div id='all' class="row"></div>
+    </div>
+
+    </br>
+    <center>
+      <div id="toptoppin"></div>
+    </center>
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+        <h1 class = 'dynpost'>AGGRO</h1>
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+          <a href="#">Pricing</a>
+          ·
+          <a href="#">About</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+        <p class="footer-company-name">We are the Aggro-greatest aggregator, asshole. &copy; 2018</p>
+
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p>Contact Us</p>
+        <form action="#" method="post">
+          <input type="text" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button>Send</button>
+        </form>
+      </div>
+
+    </footer>
+
+
+    <script type='application/javascript' src='javascript.js'></script>
+    <script src="viewportchecker.js"></script>
+
+  </body>
+
+</html>
